@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.nintendoquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/thumbnail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/thumbnail"
+            android:onClick="pictureIntent"
+            android:scaleType="centerCrop"
+            android:background="@color/colorImage"
+            />
+
+        <EditText
+            android:id="@+id/userNameText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14"
+            android:selectAllOnFocus="true"
+            android:hint="@string/insertName"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:onClick="showStatus"
+            android:text="- - -"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5">
+
+            <ImageView
+                android:id="@+id/stageBackground"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/stageintro" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:id="@+id/scrollRules"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/rules"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/rules"
+                        android:visibility="visible" />
+                </ScrollView>
+
+                <TextView
+                    android:id="@+id/questionText"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:text="@string/question1"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text"
+                    android:visibility="invisible" />
+
+                <LinearLayout
+                    android:id="@+id/answers"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <EditText
+                        android:id="@+id/editTextAnswer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:text=""
+                        android:visibility="gone"
+                        android:hint="@string/insertAnswer"/>
+
+                    <RadioGroup
+                        android:id="@+id/radioField"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone">
+
+                        <RadioButton
+                            android:id="@+id/radioA"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/answer1A" />
+
+                        <RadioButton
+                            android:id="@+id/radioB"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/answer1B" />
+
+                        <RadioButton
+                            android:id="@+id/radioC"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/answer1C" />
+
+                        <RadioButton
+                            android:id="@+id/radioD"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/answer1D" />
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:id="@+id/checkFieldAB"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <CheckBox
+                            android:id="@+id/checkA"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/answer1A" />
+
+                        <CheckBox
+                            android:id="@+id/checkB"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/answer1B" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/checkFieldCD"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <CheckBox
+                            android:id="@+id/checkC"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/answer1C" />
+
+                        <CheckBox
+                            android:id="@+id/checkD"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/answer1D" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/skipQuestion"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:onClick="skipClick"
+                android:text="@string/skip"
+                android:textSize="@dimen/buttons" />
+
+            <Button
+                android:id="@+id/confirmButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:onClick="confirmClick"
+                android:text="@string/submit"
+                android:background="@drawable/radiusbutton"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/goForDouble"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:onClick="goForDoubleClick"
+                android:text="@string/goForDouble"
+                android:textSize="@dimen/buttons" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/marioBadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/mario_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/donkeyBadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/barrel_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/marioKartBadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/mariokart_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/smashBrosBadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/smashbros_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/fzeroBadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/fzero_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/metroidBadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/metroid_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/starfoxBadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/starfox_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/megamanBadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/megaman_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/zeldaBadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/zelda_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/chronoBadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/chrono_icon"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

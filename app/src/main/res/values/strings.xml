@@ -1,0 +1,130 @@
+<resources>
+    <string name="wrong">You finished your skip possibilities, so you have to answer to the question!! Good luck!! :) </string>
+    <string name="app_name">Nintendo Quiz</string>
+    <string name="submit">Submit</string>
+    <string name="go">OK! LET\'S GO!</string>
+    <string name="engage">Engage</string>
+    <string name="start">Start</string>
+    <string name="goForDouble">Go For Double</string>
+    <string name="skip">Skip Question</string>
+    <string name="insertName">Insert your name..</string>
+    <string name="goNextStage">go to next stage</string>
+    <string name="insertAnswer">Write here your answer..</string>
+    <string name="wrongAnswer">WRONG ANSWER! \n you lost 1 point!!</string>
+    <string name="wrongDoubleAnswer">WRONG DOUBLE ANSWER! \n you lost 2 points!!</string>
+    <string name="introDouble">RIGHT ANSWER! \n You gained a new BADGE!\n You also gained 1 point!! \n Do you feel brave??" \n "Do you want to try a DOUBLE????"</string>
+    <string name="correctDouble">RIGHT DOUBLE ANSWER! \n Your badge now is golden!!! \n and you gained 2 points!"</string>
+    <string name="intro">WELCOME TO THE NINTENDO QUIZ !! \n\n You will face 10 questions, regarding some of the most famous games of Nintendo history. \n
+for each correct answer, you will earn 1 point ..\n
+for each wrong answer, you lose 1 point ..\n
+if (you had to get to -1) ... {GAME OVER!}\n\n
+
+you will have three chances to skip the questions, ended the three possibilities, you can only guess !!\n\n
+
+for each correct answer, you will have the chance to go to DOUBLE! where there is a question on the same game .. but with an EXTREME difficulty.\n
+for each correct answer in doubling, you will earn 2 points, but watch out .. for every wrong answer in doubling .. you will lose 2 points! so be carefull.. only the brave will face the doubling!\n\n
+
+the button on the top right, will show you at any time your score and how many chances to skip the answer you still have.. think carefully before you make your move!\n\n
+
+have a great time and good luck!</string>
+    <string name="question1">Super Mario: \n Mario is the most famous videogames’ plumber. Which is the name of his partner, thousands adventures mate and inseparable brother of this tireless hero?</string>
+    <string name="question2">Donkey Kong: \n borned as first enemy of Super Mario, soon became one of mostly loved heroes of Nintendo’s family, embracing the goods’ side; which animal is Donkey Kong?</string>
+    <string name="question3">Mario Kart: \n in the famous videogame Mario Kart, the most loved Nintendo characters, challenge each other in engaging go-kart race, equipped with special weapons used to reach the first position.. How that weapons were assigned?</string>
+    <string name="question4">Suer Smash Bros Melee: \n in this fighting game, the most famous Nintendo characters faced each others on the ring in no holds barred matches! how do the characters went K.O.?</string>
+    <string name="question5">F-Zero: \n in this great space-run videogame, you could reach unbelievable speeds.. Although, there was a way to even accelerates.. How??</string>
+    <string name="question6">Metroid Prime: \n in this masterpiece, the intergalactic bounty hunter has to explore an insidious alien planet.. what’s the planet name?</string>
+    <string name="question7">Sarfox: \n in this revolutionary videogame (the first in videogame history that presents a three-dimensional graphic) there are epic space battle for Lyla system safety. Protagonist of this saga is a mercenary astronauts team.. what’s the name of their smart leader?</string>
+    <string name="question8">Megaman II: \n one of the game that build the Nintendo history, absorbing and revolutionary for many reasons. In this videogame (as for the whole saga) the protagonist is an android created by dr Light, that should face an evil scientist.. what’s the name of this evil scientist?</string>
+    <string name="question9">The Legend of Zelda: \n Ocarina of Time - simply epic, one of the best videogame of ever. Glorify the tales of one of the most famous videogame characters: Link. fundamental is the help of his majestic horse, entrusted him by the Lon Lon Ranch.. which is the name of this beautiful animal?</string>
+    <string name="question10">Chrono Trigger: \n rated by many as one of the best video games, this RPG, was for many aspects revolutionary.. one reason of all: it had several alternative endings .. the player could make a difference, not just to complete a story written for him by someone else .. just like in this famous game, now you are writing your story.. Reply to the last question and write your outcome! What is the chrono trigger, which gives its name to this game?</string>
+    <string name="double1">SPECIAL DOUBLE 1: \n in one of the most famous episodes of the evergreen Super Mario’s saga, our hero used to go throughout portraits to reach awesome worlds.. which is the exact name of this videogame?</string>
+    <string name="double2">SPECIAL DOUBLE 2: \n the first appearance of Donkey Kong, was as an enemy of whom became the very well-know Super Mario.. which of the following answer, describe the bad Donkey Kong?</string>
+    <string name="double3">SPECIAL DOUBLE 3: \n in the famous rainbow run, the worst fear of whom ever get in a go-kart, which was the biggest danger?</string>
+    <string name="double4">SPECIAL DOUBLE 4: \n one of many characters to unlock was Luigi.. How could you unlock him?</string>
+    <string name="double5">SPECIAL DOUBLE 5: \n main character of this saga: Douglas Jay Falcon (Captain Falcon), wasn’t only one of the most famous space racers.. which was his job?</string>
+    <string name="double6">SPECIAL DOUBLE 6: \n One of the first enemy that Samus have to tackle in this videogame, is an historic enemy.. that should dead! Ridley.. what’s the particularity of this enemy?</string>
+    <string name="double7">SPECIAL DOUBLE 7: \n what’s the name of his inseparable second?</string>
+    <string name="double8">SPECIAL DOUBLE 8: \n in this awesome videogame, our hero should face a lot of terrible enemies with extraordinary powers.. which ones of the following name are really names of Robot Masters? (select 3 on 4)</string>
+    <string name="double9">SPECIAL DOUBLE 9: \n influential characters, in this videogame, are the three goddess, that created the Hyrule world. which ones of the following, are real names of these almighty goddess? (select 3 on 4)</string>
+    <string name="double10">SPECIAL DOUBLE 10: \n one of the protagonists of the game is Crono, that during the game is tragically killed by Lavos .. the other characters will face countless adventures to master time, go back and save their comrade.. what is the peculiarity that has made famous this game?</string>
+    <string name="congratulations">congratulations</string>
+    <string name="answer1A">Wario</string>
+    <string name="answer1B">Luigi </string>
+    <string name="answer1C">Roberto</string>
+    <string name="answer1D">Toad</string>
+    <string name="answer2A">a gorilla</string>
+    <string name="answer2B">an horse</string>
+    <string name="answer2C">a donkey</string>
+    <string name="answer2D">a crow</string>
+    <string name="answer3A">each lap, the last ranked received a weapon</string>
+    <string name="answer3B">each lap, the first ranked received a weapon</string>
+    <string name="answer3C">weapons were contained in special box spreaded along the circuit</string>
+    <string name="answer3D">weapons were bought in a special shop in the pause menu</string>
+    <string name="answer4A">emptying the life bar</string>
+    <string name="answer4B">using the special move of your character</string>
+    <string name="answer4C">making the rival fell down from the ring</string>
+    <string name="answer4D">collecting the biggest amount of points before the ending of time</string>
+    <string name="answer5A">buying special boosts on the shops </string>
+    <string name="answer5B">hitting a joystick button when hurting a rival during the race </string>
+    <string name="answer5C">stepping over special panel spreaded along the circuit</string>
+    <string name="answer5D">pushing brake and throttle together </string>
+    <string name="answer6A">Metroid </string>
+    <string name="answer6B">Zebes </string>
+    <string name="answer6C">Tallon IV </string>
+    <string name="answer6D">Phendrana </string>
+    <string name="answer7A">Argonaut Leo </string>
+    <string name="answer7B">Striker Dog </string>
+    <string name="answer7C">Black Cat </string>
+    <string name="answer7D">Fox McCloud </string>
+    <string name="answer8A">Mr.Death </string>
+    <string name="answer8B">Robot Hunter </string>
+    <string name="answer8C">Dr. Wily </string>
+    <string name="answer8D">Lt. Surge </string>
+    <string name="answer9">epona</string>
+    <string name="answer10A">a small gimmick able to manipulate the flow of causality</string>
+    <string name="answer10B">a magical amulet that brings back time </string>
+    <string name="answer10C">a clock came from the future which can lead back and forth in time </string>
+    <string name="answer10D">a legendary time machine feeded with triggon crystals </string>
+    <string name="answerDouble1A">Super Mario World</string>
+    <string name="answerDouble1B">Yoshi’s Island</string>
+    <string name="answerDouble1C">Super Mario 64</string>
+    <string name="answerDouble1D">Mario never went throughout portrait.. only pipes!!</string>
+    <string name="answerDouble2A">he is the king of the skull island</string>
+    <string name="answerDouble2B">he captures Mario’s engaged and brings her to the top of a skyline under construction, throwing down barrels and various objects</string>
+    <string name="answerDouble2C">he is a donkey that dreams to be an horse</string>
+    <string name="answerDouble2D">he jumps from a skyline to the other, throwing down bananas, Mario should pick all of them!</string>
+    <string name="answerDouble3A">one lap was clockwise and one anticlockwise</string>
+    <string name="answerDouble3B">the circuit didn’t have guard rails and it was easly to fell down </string>
+    <string name="answerDouble3C">the circuit was a huge rainbow and each pilot couldrun on one color </string>
+    <string name="answerDouble3D">there were quicksand </string>
+    <string name="answerDouble4A">completing the game with Mario </string>
+    <string name="answerDouble4B">completing the game with Mario without using any weapon </string>
+    <string name="answerDouble4C">completing the first level stopping the countdown timer in a number that ends with 2 seconds. </string>
+    <string name="answerDouble4D">Beating Mario using Peach’s special move </string>
+    <string name="answerDouble5A">a bounty hunter</string>
+    <string name="answerDouble5B">mechanic </string>
+    <string name="answerDouble5C">space explorer </string>
+    <string name="answerDouble5D">soldier (deserter) </string>
+    <string name="answerDouble6A">it’s a mechanic copy of the original Ridley, created by spaces pirates </string>
+    <string name="answerDouble6B">it’s a ghost </string>
+    <string name="answerDouble6C">it’s Ridley, returned to life</string>
+    <string name="answerDouble6D">it’s only the imagination of the protagonist </string>
+    <string name="answerDouble7A">Sleepy Frog </string>
+    <string name="answerDouble7B">Wilde Horse</string>
+    <string name="answerDouble7C">Falco Lombardi </string>
+    <string name="answerDouble7D">Cornelius Andross </string>
+    <string name="answerDouble8A">Metal Man</string>
+    <string name="answerDouble8B">Bubble Man </string>
+    <string name="answerDouble8C">Wood Man </string>
+    <string name="answerDouble8D">Water Man </string>
+    <string name="answerDouble9A">Din </string>
+    <string name="answerDouble9B">Farore </string>
+    <string name="answerDouble9C">Nairyu </string>
+    <string name="answerDouble9D">Goron </string>
+    <string name="answerDouble10A">at the end of the game, player discovers that Crono and Larvos are the same person!</string>
+    <string name="answerDouble10B">Crono is the son of Larvos! </string>
+    <string name="answerDouble10C">you can finish the game without reviving Crono during the adventure .. or even you can play the game NEVER letting him die in the course of history! </string>
+    <string name="answerDouble10D">to save Crono, the Chrono Trigger should be destroyed! </string>
+
+
+</resources>
